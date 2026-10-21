@@ -1,0 +1,14 @@
+/* 由 packages/lively/sync_lively.py 產生，請勿手改（改 apps.json 再重跑）。
+   907_toeic-vocab｜主題色相來源 #1e3a5f｜engine=vocab｜level=low */
+:root{--lv-engine:vocab;--lv-level:low}
+html:not([data-theme="dark"]),html:not([data-theme="dark"]) body{
+  --lv-btn:#8BADDA;--lv-btn-d:#5D88C0;--lv-ink:#1A3860;--lv-acc:#3668AB;
+  --lv-soft:#E7EEF8;--lv-soft2:#CCD9EA;
+}
+html[data-theme="dark"],html[data-theme="dark"] body{
+  --lv-btn:#8BADDA;--lv-btn-d:#5D88C0;--lv-ink:#1A3860;--lv-acc:#779FD4;
+  --lv-soft:#253141;--lv-soft2:#374A62;
+}
+@media (prefers-color-scheme:dark){html:not([data-theme]),html:not([data-theme]) body{
+  --lv-acc:#779FD4;--lv-soft:#253141;--lv-soft2:#374A62;
+}}
